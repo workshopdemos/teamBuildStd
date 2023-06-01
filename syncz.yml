@@ -1,0 +1,13 @@
+host: ca31.lvn.broadcom.net 
+user: bruva01 
+
+sync:    
+   - id: src
+     remote: /a/bruva01/finance_app_std/
+     ignore:       
+       - "syncz.yml"       
+       - "build-out/"
+backsync:
+    - id: outputs
+      remote: /a/bruva01/finance_app_std/build-out/
+      local: build-out/
