@@ -7,6 +7,7 @@
        CONFIGURATION SECTION.
           SOURCE-COMPUTER. ZOS.
           OBJECT-COMPUTER. ZOS.
+
       * Mandatory divison - the actual program/logic
        PROCEDURE DIVISION.
-           DISPLAY 'Hello, World! Goodbye!'.
+           DISPLAY 'Hello, World!'.
