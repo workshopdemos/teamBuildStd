@@ -1,15 +1,15 @@
 host: 10.1.2.120
 port: 2022
-user: cust016
+user: cust0##
 
 sync:    
    - id: src
-     remote: /u/users/cust016/finance_app_std/
+     remote: /u/users/cust0##/finance_app_std/
      ignore:       
        - "syncz.yml"       
        - "build-out/"
        - syncz
 backsync:
     - id: outputs
-      remote: /u/users/cust016/finance_app_std/build-out
+      remote: /u/users/cust0##/finance_app_std/build-out
       local: listings
